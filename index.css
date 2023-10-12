@@ -106,9 +106,10 @@ nav li:nth-of-type(5) a:hover,
   display: grid;
   align-items: center;
   /* grid-template-columns: 427px 470px; */
-  grid-template-columns: 4fr 4.5fr;
+  grid-template-columns: 4fr 4.71fr;
   justify-content: space-between;
   height: 800px;
+  /* border:1px solid red */
 }
 .hero h1 {
   font-size: clamp(40px, 5vw, 58px);
@@ -270,7 +271,7 @@ section .signup-form .sign-text {
   
   }
   body{
-    padding:40px 10px;
+    padding:10px 10px 30px 10px;
   }
   
 }
