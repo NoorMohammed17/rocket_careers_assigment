@@ -1,16 +1,21 @@
-body{
+*{
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    background-color:#2f1893 ;
+    /* background-color:#2f1893 ;
     max-width:1400px;
-    max-height:890px;
+    max-height:890px; */
     color: #fff;
+    /*
+    */
+    /* display: block;
+    margin:auto; */
+}
+body{
+    background-color:#2f1893 ;
     margin:0;
     padding:0;
     background-repeat: no-repeat;
-    /* display: block;
-    margin:auto; */
 }
 a{
     display: inline-block;
@@ -25,3 +30,64 @@ ul{
 h1,p{
     margin:0;
 }
+.row{
+    display:flex;
+}
+.container{
+    max-width: 90%;
+    margin:0 auto;
+}
+
+/* Navigation */
+header{
+    align-items: center;
+    justify-content: space-between;
+    gap:2em;
+    padding:1.5em 0;
+}
+.logo h1{
+    font-weight: 700;
+    font-size: 24px;
+}
+nav ul{
+    gap:2em;
+    align-items: center;
+}
+nav a{
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition:0.3s ease-in-out;
+    -o-transition:0.3s ease-in-out;
+}
+nav a::after{
+    display:block;
+    content: "";
+    width:0;
+    height:3px;
+    margin:0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    
+}
+nav li:nth-of-type(5) a::after{
+    all:unset;
+}
+nav a:hover::after{
+    width:30px;
+}
+nav li:nth-of-type(5) a{
+    padding:0.5em 1em;
+    background-color:#E93A7D ;
+    border-radius: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+nav li:nth-of-type(5) a:hover, .hero a:hover{
+    background-color:#c95783 ;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* End Navigation */
