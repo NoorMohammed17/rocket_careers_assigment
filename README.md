@@ -2,7 +2,9 @@
 
 This assignment is from the Rocket Careers company for the front end developer role.
 
-The assignment provided contains to clone the Hero section of a web-page using HTML, CSS
+The assignment is to clone the Hero section of a web-page using HTML, CSS
+
+The page is made responsive.
 
 ## Tech stack used:-
 1) HTML - structure a web page and its content
