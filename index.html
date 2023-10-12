@@ -13,36 +13,65 @@
     <title>Rocket Careers</title>
   </head>
   <body>
+    <div class="main-container">
     <!-- Navigation -->
-    <header class="row container">
-      <a href="#" class="logo "><h1>Startup 3</h1></a>
-    
-    <div class="toggle" onclick="toggle()"></div>
-    <nav class="navigation row">
-      <ul class="row">
-        <li><a href="#">Overview</a></li>
-        <li><a href="#">Prices</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Feedback</a></li>
-        <li><a href="#">Purchase</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="row  header-container">
+      <a href="#" class="logo"><h1>Startup 3</h1></a>
+
+      <div class="toggle" onclick="toggle()"></div>
+      <nav class="navigation row">
+        <ul class="row">
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Prices</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Purchase</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- Navigation Ends -->
 
     <!-- Hero -->
     <section class="hero row container">
-      <h1>Generate Awesome Web Pages</h1>
-      <p>
-        The most important part of the Startup is the samples. The samples form
-        a set of 25 usable pages you can use as is or you can add new blocks.
-      </p>
-      <a href="#" class="learn-btn">Learn More</a>
+      <div>
+        <h1>Generate Awesome Web Pages</h1>
+        <p>
+          The most important part of the Startup is the samples. The samples
+          form a set of 25 usable pages you can use as is or you can add new
+          blocks.
+        </p>
+        <a href="#" class="learn-btn">Learn More</a>
+      </div>
+
+      <!-- Sign up form -->
+      <div class="row signup-form">
+        <h1>Sign Up Now</h1>
+        <form action="">
+          <input type="email" class="input-box" placeholder="Your email" />
+          <input
+            type="password"
+            class="input-box"
+            placeholder="Your password"
+          />
+          <p class="checkbox-text">
+            <span><input type="checkbox" checked /></span>I agree to the Terms
+            of Service.
+          </p>
+
+          <button type="'button" class="sign-btn">Sign In</button>
+          <hr />
+          <p class="or">or</p>
+          <button type="'button" class="twitter-btn">Login via Twitter</button>
+          <p class="account-text">
+            Do you have an account?
+            <span class="sign-text">Sign in</span>
+          </p>
+        </form>
+      </div>
+      <!-- Sign up form ends -->
     </section>
-    <div class="row">
-     <h1>Noor</h1>
-    </div>
 
     <!-- Hero Ends -->
+  </div>
   </body>
 </html>
