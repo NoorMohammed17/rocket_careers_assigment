@@ -1,3 +1,27 @@
 body{
+    box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    background-color:#2f1893 ;
+    max-width:1400px;
+    max-height:890px;
+    color: #fff;
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+    /* display: block;
+    margin:auto; */
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    color: #fff;
+}
+h1,p{
+    margin:0;
 }
